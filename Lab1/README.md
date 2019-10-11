@@ -1,10 +1,10 @@
 https://iitd-plos.github.io/col718/labs/Lab1/Lab1.html
 
-#COL718 Lab 1 : Measuring the ROB Capacity, PRF Size and MLP
+# COL718 Lab 1 : Measuring the ROB Capacity, PRF Size and MLP
 Due date - 23:55, 7 September 2019
 In this assignment, we will try to measure the capacity of ROB(Re-Order Buffer) which is, as discussed in the class, a central element in OOO Processor architecture. We will also measure the number of speculative and non-speculative registers. We will try to measure the degree of MLP(Memory Level Parallelism) as well. We will write our own microbenchmarks to measure all these parameters. The guiding principle of writing suitable microbenchmarks will be discussed in the following section.
 
-#Instructions
+## Instructions
 - Please have a look at the paper(only Para 5,6 of Section 3(Hardware Callibration), Page 5)for a general outline of how to write microbenchmark(s) to measure the ROB Capacity and MLP : http://www.cse.iitd.ac.in/~sbansal/pubs/bacus.pdf.
 - For more detailed understanding, please have a look at the blog http://blog.stuffedcow.net/2013/05/measuring-rob-capacity/.
 - You have to measure ROB Capacity, Number of Speculative and Non-Speculative Regsters(including floating-point), Degree of MLP for different machines like, your laptop, your lab machine and a server machine(you would be given access to a server, if needed)
