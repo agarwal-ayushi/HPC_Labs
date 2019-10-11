@@ -1,0 +1,7 @@
+To execute please run :
+
+g++ -O0 -g physicalRegFile_FP.cpp -o physicalRegFile_FP
+
+To run for various numbers of ADD intructions, please change line 64 of the code. The code has not been generalized yet
+to create all the results together due to time constraint. Time was spent in explorations. 
+The current code runs for 190 ADD instructions in the inner loop. 

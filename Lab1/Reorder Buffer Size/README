@@ -1,0 +1,18 @@
+To execute please run :
+1) Using Dynamic Array:
+
+g++ -O0 -g ROB_dynarr.cpp -o ROB_dynarr
+
+To run for various numbers of #nops intructions, please change line 57 of the code. The code has not been generalized yet
+to create all the results togther due to time constraint. Time was spent in explorations. 
+The current code runs for 215 nop instructions in the inner loop. 
+
+
+2) Using Static Array:
+
+g++ -O0 -g ROB_static_arr.cpp -o ROB_static_arr
+
+To run for various numbers of #nops intructions, please change line 57 of the code. The code has not been generalized yet
+to create all the results togther due to time constraint. Time was spent in explorations. 
+The current code runs for 215 nop instructions in the inner loop. 
+

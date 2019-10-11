@@ -1,0 +1,9 @@
+To execute please run :
+
+g++ -O0 -g memLevelParallelism.cpp -o memLevelParallelism
+
+To run for various number of memory loads (N), please change in line 58. Current code is setup for N = 1 i.e. one memory load. 
+To run for various numbers of #nops intructions, please change line 60 of the code. The code has not been generalized yet
+to create all the results togther due to time constraint. Time was spent in explorations. 
+The current code runs for 100 nop instructions in the inner loop. 
+
