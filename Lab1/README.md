@@ -2,6 +2,7 @@ https://iitd-plos.github.io/col718/labs/Lab1/Lab1.html
 
 # COL718 Lab 1 : Measuring the ROB Capacity, PRF Size and MLP
 Due date - 23:55, 7 September 2019
+
 In this assignment, we will try to measure the capacity of ROB(Re-Order Buffer) which is, as discussed in the class, a central element in OOO Processor architecture. We will also measure the number of speculative and non-speculative registers. We will try to measure the degree of MLP(Memory Level Parallelism) as well. We will write our own microbenchmarks to measure all these parameters. The guiding principle of writing suitable microbenchmarks will be discussed in the following section.
 
 ## Instructions
